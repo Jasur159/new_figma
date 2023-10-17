@@ -114,6 +114,24 @@ color: #272D38;
   font-size: 14px;
   font-weight: 700;
 }
+.contact_btn {
+  padding: 10px 24px;
+  outline: none;
+  border: none;
+  width: 140px;
+  background-color: #8eadd5;
+  border-radius: 8px;
+  cursor: pointer;
+
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 27.5px;
+}
+.contact_btn:hover {
+  opacity: 0.7;
+}
 @media (min-width: 370px) {
   img {
     max-width: 100%;
@@ -143,24 +161,6 @@ color: #272D38;
     text-transform: capitalize;
     line-height: 27.5px;
     text-align: center;
-  }
-  .contact_btn {
-    padding: 10px 24px;
-    outline: none;
-    border: none;
-    width: 140px;
-    background-color: #8eadd5;
-    border-radius: 8px;
-    cursor: pointer;
-
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 27.5px;
-  }
-  .contact_btn:hover {
-    opacity: 0.7;
   }
   .header_content {
     display: flex;
