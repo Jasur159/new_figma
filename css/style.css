@@ -142,7 +142,7 @@ img{
     display: inline-flex;
   }
   .container {
-    width: 380px;
+    width: 90%;
     margin: 0 auto;
   }
   .header_text {
