@@ -115,10 +115,9 @@ color: #272D38;
   font-weight: 700;
 }
 .contact_btn {
-  padding: 10px 24px;
+  padding: 10px 25px;
   outline: none;
   border: none;
-  width: 150px;
   background-color: #8eadd5;
   border-radius: 8px;
   cursor: pointer;
@@ -143,7 +142,7 @@ img{
     display: inline-flex;
   }
   .container {
-    width: 90%;
+    width: 380px;
     margin: 0 auto;
   }
   .header_text {
