@@ -25,6 +25,21 @@ img {
   margin: 0 auto;
 }
 @media (min-width: 370px) {
+  .header_content{
+    position: relative;
+  }
+  .header_content::after{
+   content: "";
+   width: 450px;
+   height: 450px;
+   position: absolute;
+   border-radius: 50%;
+   background: #8EADD53D;
+   box-shadow: 306px 306px 306px;
+   filter: blur(306px);
+   top: -800px;
+   left: -900px;
+  }
   .logo {
     color: #272d38;
     font-size: 14px;
@@ -407,6 +422,21 @@ img {
   .header_text h1 {
     font-size: 4rem;
     line-height: 4rem;
+  }
+  .header_content{
+    position: relative;
+  }
+  .header_content::after{
+   content: " ";
+   width: 450px;
+   height: 450px;
+   position: absolute;
+   border-radius: 50%;
+   background: rgba(142, 173, 213, 0.24);
+   box-shadow: 306px 306px 306px;
+   filter: blur(306px);
+   top: -800px;
+   left: -500px;
   }
   .header_content {
     padding-bottom: 157px;
