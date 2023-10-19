@@ -24,7 +24,7 @@ img {
   max-width: 1065px;
   margin: 0 auto;
 }
-@media (min-width: 370px) {
+@media (min-width: 320px) {
   .header_content{
     position: relative;
   }
@@ -221,10 +221,16 @@ img {
   .stage_img_1 {
     grid-area: 2/1/3/2;
     margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .stage_img_2 {
     grid-area: 4/1/5/2;
     margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .stages_text {
     display: flex;
@@ -276,7 +282,7 @@ img {
   }
   .fans_boxes {
     display: grid;
-    grid-template-columns: repeat(1,375px);
+    grid-template-columns: repeat(1,minmax(300px,375px));
     row-gap: 40px;
     align-items: center;
   }
